@@ -19,6 +19,13 @@ BaselineOfGtCourseSoftEng1 class >> loadLepiter [
 			self inform: 'Repository not found.' ]
 ]
 
+{ #category : #accessing }
+BaselineOfGtCourseSoftEng1 class >> renameLepiter [
+	LeDatabasesRegistry defaultLogicalDatabase databases 
+		detect: [ :aDatabase | aDatabase databaseName includesSubstring: 'gt-course-soft-eng-1' ] 
+		ifFound: [ :aDatabase | aDatabase databaseName: 'Course: Software Engineering 1']
+]
+
 { #category : #baseline }
 BaselineOfGtCourseSoftEng1 >> baseline: spec [
 	<baseline>
