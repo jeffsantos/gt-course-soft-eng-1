@@ -1,1 +1,1 @@
-# gt-course-soft-eng-1
+# gt-course-soft-eng-1## Installation```stMetacello new	repository: 'github://jeffsantos/gt-course-soft-eng-1:main/src';	baseline: 'GtCourseSoftEng1';	load```## Load Lepiter				After installing with Metacello, you will be able to execute```#BaselineOfGtCourseSoftEng1 asClass loadLepiter```
