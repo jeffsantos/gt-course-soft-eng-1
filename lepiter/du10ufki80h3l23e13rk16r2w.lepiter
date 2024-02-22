@@ -3,45 +3,7 @@
 	"__type" : "page",
 	"children" : {
 		"__type" : "snippets",
-		"items" : [
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-19T13:56:29.194-03:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-19T13:56:29.199-03:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "ILeblSDODQCzSGGlCVVvkQ=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "[[Roteiro das Aulas]]"
-			}
-		]
+		"items" : [ ]
 	},
 	"createEmail" : {
 		"__type" : "email",
