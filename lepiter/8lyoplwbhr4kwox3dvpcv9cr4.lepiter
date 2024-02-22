@@ -245,7 +245,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2024-02-20T07:56:12.64-03:00"
+									"dateAndTimeString" : "2024-02-22T09:50:55.242-03:00"
 								}
 							},
 							"editEmail" : {
@@ -256,12 +256,12 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2024-02-20T07:56:13.552-03:00"
+									"dateAndTimeString" : "2024-02-22T09:50:55.242-03:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "MGelyy/ODQCgXDWzCNilPg=="
+								"uidString" : "EFuQoVnODQCbuPm7AroTlA=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
@@ -289,7 +289,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-19T16:17:07.474-03:00"
+						"dateAndTimeString" : "2024-02-22T09:50:25.05-03:00"
 					}
 				},
 				"uid" : {
@@ -299,7 +299,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "## Introdução"
+				"string" : "## 1. Introdução"
 			},
 			{
 				"__type" : "textSnippet",
@@ -650,7 +650,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-20T07:39:47.411-03:00"
+						"dateAndTimeString" : "2024-02-20T07:56:12.64-03:00"
 					}
 				},
 				"editEmail" : {
@@ -661,17 +661,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-20T07:39:47.411-03:00"
+						"dateAndTimeString" : "2024-02-22T09:51:16.397-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "OAjskC/ODQCRtTDtCNilPg=="
+					"uidString" : "MGelyy/ODQCgXDWzCNilPg=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "## Processos"
+				"string" : "## 2. Processos"
 			},
 			{
 				"__type" : "textSnippet",
@@ -922,7 +922,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-20T07:44:03.388-03:00"
+						"dateAndTimeString" : "2024-02-22T10:03:01.226-03:00"
 					}
 				},
 				"uid" : {
@@ -932,7 +932,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "## Agilidade"
+				"string" : "## 3. Agilidade"
 			},
 			{
 				"__type" : "textSnippet",
@@ -1182,7 +1182,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-20T07:44:48.773-03:00"
+						"dateAndTimeString" : "2024-02-22T10:03:19.491-03:00"
 					}
 				},
 				"uid" : {
@@ -1192,7 +1192,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "## Requisitos"
+				"string" : "## 4. Requisitos"
 			},
 			{
 				"__type" : "textSnippet",
@@ -1346,6 +1346,43 @@
 								"__type" : "textStyle"
 							},
 							"string" : "Diagrama de Atividades"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-02-22T09:44:11.118-03:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-02-22T09:44:15.669-03:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "yOV5iVnODQCa0L+cAroTlA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Diagrama de Estados"
 						},
 						{
 							"__type" : "textSnippet",
@@ -1517,7 +1554,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-20T07:45:10.487-03:00"
+						"dateAndTimeString" : "2024-02-22T10:03:34.946-03:00"
 					}
 				},
 				"uid" : {
@@ -1527,7 +1564,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "## Modelos"
+				"string" : "## 5. Modelos"
 			},
 			{
 				"__type" : "textSnippet",
@@ -1889,7 +1926,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-20T07:45:36.966-03:00"
+						"dateAndTimeString" : "2024-02-22T10:03:55.232-03:00"
 					}
 				},
 				"uid" : {
@@ -1899,7 +1936,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "## Design"
+				"string" : "## 6. Design"
 			},
 			{
 				"__type" : "textSnippet",
@@ -2520,7 +2557,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-20T07:46:12.832-03:00"
+						"dateAndTimeString" : "2024-02-22T10:05:15.043-03:00"
 					}
 				},
 				"uid" : {
@@ -2530,13 +2567,50 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "## Design Patterns"
+				"string" : "##7. Design Patterns"
 			},
 			{
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-02-22T09:45:21.632-03:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-02-22T09:45:24.853-03:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "GNutjVnODQCbNE5eAroTlA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Refactoring"
+						},
 						{
 							"__type" : "textSnippet",
 							"children" : {
@@ -2743,7 +2817,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-20T07:47:09.538-03:00"
+						"dateAndTimeString" : "2024-02-22T10:05:22.455-03:00"
 					}
 				},
 				"uid" : {
@@ -2753,7 +2827,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "## Refatoração"
+				"string" : "## 8. Refatoração"
 			},
 			{
 				"__type" : "textSnippet",
@@ -3078,7 +3152,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-20T07:47:25.539-03:00"
+						"dateAndTimeString" : "2024-02-22T10:06:39.198-03:00"
 					}
 				},
 				"uid" : {
@@ -3088,7 +3162,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "## Arquitetura"
+				"string" : "## 9. Arquitetura"
 			},
 			{
 				"__type" : "textSnippet",
@@ -3449,7 +3523,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-20T07:48:12.311-03:00"
+						"dateAndTimeString" : "2024-02-22T10:07:20.531-03:00"
 					}
 				},
 				"uid" : {
@@ -3459,7 +3533,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "## Arquitetura de Aplicações Web"
+				"string" : "## 10. Arquitetura de Aplicações Web"
 			},
 			{
 				"__type" : "textSnippet",
@@ -3783,7 +3857,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-20T07:48:26.554-03:00"
+						"dateAndTimeString" : "2024-02-22T10:07:37.802-03:00"
 					}
 				},
 				"uid" : {
@@ -3793,7 +3867,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "## Domain Driven Design"
+				"string" : "## 11. Domain Driven Design"
 			},
 			{
 				"__type" : "textSnippet",
@@ -4026,7 +4100,45 @@
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
-								"items" : [ ]
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-02-22T10:09:35.869-03:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-02-22T10:09:38.594-03:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "YMBb5FnODQCcr4CmAroTlA=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : " (+livro oorp, curso sma, somerville cap. 9)"
+									}
+								]
 							},
 							"createEmail" : {
 								"__type" : "email",
@@ -4080,7 +4192,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-20T07:49:24.469-03:00"
+						"dateAndTimeString" : "2024-02-22T10:09:33.232-03:00"
 					}
 				},
 				"uid" : {
@@ -4090,7 +4202,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "## Reengenharia  (+livro oorp, curso sma, somerville cap. 9)"
+				"string" : "## 12. Reengenharia"
 			},
 			{
 				"__type" : "textSnippet",
@@ -4286,7 +4398,45 @@
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
-								"items" : [ ]
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-02-22T10:09:22.59-03:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-02-22T10:09:25.713-03:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "MCWR41nODQCcmbL9AroTlA=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "(+somerville cap. 16, 17, 18, 19)"
+									}
+								]
 							},
 							"createEmail" : {
 								"__type" : "email",
@@ -4340,7 +4490,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-20T07:49:59.129-03:00"
+						"dateAndTimeString" : "2024-02-22T10:09:19.032-03:00"
 					}
 				},
 				"uid" : {
@@ -4350,7 +4500,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "## Reuso (+somerville cap. 16, 17, 18, 19)"
+				"string" : "## 13. Reuso"
 			},
 			{
 				"__type" : "textSnippet",
