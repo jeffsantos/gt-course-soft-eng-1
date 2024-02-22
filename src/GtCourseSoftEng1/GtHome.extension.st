@@ -1,6 +1,6 @@
 Extension { #name : #GtHome }
 
-{ #category : #'*GtCourseSoftwareEngineering1' }
+{ #category : #'*GtCourseSoftEng1' }
 GtHome >> courseSoftwareEngineering1Section [
 	<gtHomeSection>
 	^ GtHomeStartPageSection new 
