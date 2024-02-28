@@ -1,0 +1,178 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-02-28T10:15:48.6-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-02-28T10:16:24.861-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "wHCfrdLODQCSA9jDBO83bA=="
+				},
+				"code" : "Metacello new\rbaseline: 'Parasol';\rrepository: 'github://SeasideSt/Parasol/repository';\rload: 'tests'."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-02-28T10:16:38.192-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-02-28T10:16:53.163-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "sB+UsNLODQCSChwEBO83bA=="
+				},
+				"code" : "driver := BPRemoteWebDriver withCapabilities: BPChromeOptions new.\rdriver get: 'https://pharo.org/'.\r\rdriver getTitle.\r\rdriver close."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-02-28T10:16:57.397-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-02-28T10:55:07.255-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "mBu5sdLODQCSEzL1BO83bA=="
+				},
+				"code" : "driver:= BPRemoteWebDriver withCapabilities: BPChromeOptions new.\r\r\"Login page\" \rdriver get: 'https://cipafacil.digital/sign-in'.\r\remail := driver findElementByID: 'email'.\rpassword := driver findElementByID: 'password'.\r\remail clear.\remail sendKeys: ''.\rpassword clear.\rpassword sendKeys: ''.\r\rpassword sendKeys: (String with: BPKeys return).\r\r5 seconds asDelay wait.\r\r\"Dashboard page\" \rcover := (driver findElementsByCSSSelector: '.object-cover') first.\rcover click.\r\r\r\"Extrato page\"\r1 to: 12 do: \r\t[ :i | \r\t\tdriver get: 'https://cipafacil.digital/extrato'.\r\r\t\t3 seconds asDelay wait.\r\r\t\t\"Extrato page - Set Date\"\r\t\tcalendar := (driver findElementsByCSSSelector: '.mat-input-element') first.\r\t\tcalendar click.\r\r\t\tpreviousButton := (driver \r\t\t\t\t\tfindElementsByCSSSelector: '.mat-calendar-previous-button') first.\r\t\tpreviousButton click.\t\r\r\t\tmonth := (driver \r\t\t\t\t\tfindElementsByCSSSelector: '.mat-calendar-body-cell-content') at: i.\r\r\t\tmonth click.\r\t\t3 seconds asDelay wait.\r\t\texportButton := (driver \r\t\t\t\t\t\tfindElementsByCSSSelector: 'span.mat-button-wrapper') third.\r\t\texportButton click.\r\t\t10 seconds asDelay wait.\r].\r\r"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-02-28T10:15:05.104-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-02-28T10:15:05.104-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "gL4Hq9LODQCSAv6JBO83bA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2024-02-28T10:15:43.689-03:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2024-02-28T14:01:40.699-03:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Exploração via Scrap"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "187c07ab-d2ce-0d00-9201-1ae604ef376c"
+	}
+}
