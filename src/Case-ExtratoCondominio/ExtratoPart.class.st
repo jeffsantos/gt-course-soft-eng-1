@@ -1,6 +1,9 @@
 Class {
 	#name : #ExtratoPart,
 	#superclass : #Object,
+	#instVars : [
+		'parentDocument'
+	],
 	#classInstVars : [
 		'priority'
 	],
@@ -13,11 +16,16 @@ ExtratoPart class >> canParse: aTrTag [
 ]
 
 { #category : #'instance creation' }
-ExtratoPart class >> newFromTrTag: aTrTag [
+ExtratoPart class >> newFromTrTag: aTrTag withDocument: aDocument [
 	self subclassResponsibility
 ]
 
 { #category : #'accessing - class hierarchy' }
 ExtratoPart class >> priority [
-	^ priority
+	self subclassResponsibility
+]
+
+{ #category : #accessing }
+ExtratoPart >> parentDocument: aDocument [
+	parentDocument := aDocument
 ]
