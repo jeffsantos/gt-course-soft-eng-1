@@ -25,7 +25,7 @@ GrupoSaldoPart class >> newFromTrTag: aTrTag withDocument: aDocument [
 
 	| re grupoSaldoPart |
 	
-	re := 'GRUPO DE SALDO\:\s*(\w+)' asRegex.
+	re := 'GRUPO DE SALDO\:\s(.+)\sSaldo' asRegex.
 	re search: aTrTag text.
 	re subexpression: 2.
 	

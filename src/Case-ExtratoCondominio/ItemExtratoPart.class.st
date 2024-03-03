@@ -35,11 +35,11 @@ ItemExtratoPart class >> newFromTrTag: aTrTag withDocument: aDocument [
 		
 	columns := aTrTag findAllTags: 'td'.
 	
-	itemPart dia: (columns at: 1) text.
+	itemPart dia: (self toDate: (columns at: 1) text).
 	itemPart conta: (columns at: 2) text.
 	itemPart descricao: (columns at: 3) text.
 	itemPart ref: (columns at: 4) text.
-	itemPart valor: (columns at: 5) text.
+	itemPart valor: (self toNumber: (columns at: 5) text).
 	itemPart complemento: (columns at: 6) text.
 	
 	aDocument currentGrupoSaldo currentGrupoItem addItem: itemPart.
@@ -51,6 +51,22 @@ ItemExtratoPart class >> newFromTrTag: aTrTag withDocument: aDocument [
 { #category : #'accessing - class hierarchy' }
 ItemExtratoPart class >> priority [
 	^ 6
+]
+
+{ #category : #'private - converting' }
+ItemExtratoPart class >> toDate: aString [
+	| dateParts day month |
+	dateParts := ('/' split:aString).
+	day := dateParts at: 1.
+	month := dateParts at: 2.
+	dateParts at: 2 put: day.
+	dateParts at: 1 put: month.
+	^ ('/' join: dateParts) asDate.
+]
+
+{ #category : #'private - converting' }
+ItemExtratoPart class >> toNumber: aString [
+	^ (aString \ ',') asNumber
 ]
 
 { #category : #accessing }
