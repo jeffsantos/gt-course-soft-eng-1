@@ -14,6 +14,7 @@ CondominioPart class >> canParse: aTrTag [
 
 { #category : #'class initialization' }
 CondominioPart class >> initialize [
+	super initialize.
 	priority := 1
 ]
 
@@ -31,11 +32,6 @@ CondominioPart class >> newFromTrTag: aTrTag withDocument: aDocument [
 		
 	aDocument condominio: condominioPart.
 	^ condominioPart
-]
-
-{ #category : #'accessing - class hierarchy' }
-CondominioPart class >> priority [
-	^ 1
 ]
 
 { #category : #accessing }

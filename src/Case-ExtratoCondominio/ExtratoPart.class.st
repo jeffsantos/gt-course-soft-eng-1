@@ -22,7 +22,7 @@ ExtratoPart class >> newFromTrTag: aTrTag withDocument: aDocument [
 
 { #category : #'accessing - class hierarchy' }
 ExtratoPart class >> priority [
-	self subclassResponsibility
+	^ priority
 ]
 
 { #category : #accessing }

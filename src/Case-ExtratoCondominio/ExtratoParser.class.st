@@ -9,7 +9,7 @@ Class {
 }
 
 { #category : #'instance creation' }
-ExtratoParser class >> fromFile: aFileReference yearMonth: aString [
+ExtratoParser class >> fromFile: aFileReference [
 	| soup tableTag |
 	soup := Soup fromString: aFileReference contents.
 	tableTag := (soup findAllTags: 'table') first.

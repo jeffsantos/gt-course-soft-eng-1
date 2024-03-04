@@ -17,6 +17,7 @@ GrupoSaldoPart class >> canParse: aTrTag [
 
 { #category : #'class initialization' }
 GrupoSaldoPart class >> initialize [
+	super initialize.
 	priority := 2.
 ]
 
@@ -35,11 +36,6 @@ GrupoSaldoPart class >> newFromTrTag: aTrTag withDocument: aDocument [
 		
 	aDocument currentGrupoSaldo: grupoSaldoPart.
 	^ grupoSaldoPart
-]
-
-{ #category : #'accessing - class hierarchy' }
-GrupoSaldoPart class >> priority [
-	^ 2
 ]
 
 { #category : #accessing }
@@ -82,6 +78,11 @@ GrupoSaldoPart >> grupoRecebimento: aGrupoRecebimentoPart [
 ]
 
 { #category : #accessing }
+GrupoSaldoPart >> saldoMes [
+	^ self totalRecebimentos + self totalPagamentos
+]
+
+{ #category : #accessing }
 GrupoSaldoPart >> title [
 	^ title
 ]
@@ -89,4 +90,14 @@ GrupoSaldoPart >> title [
 { #category : #'instance creation' }
 GrupoSaldoPart >> title: aString [
 	title := aString 
+]
+
+{ #category : #accessing }
+GrupoSaldoPart >> totalPagamentos [
+	^ self grupoPagamento ifNotNil: #total ifNil: [0]
+]
+
+{ #category : #accessing }
+GrupoSaldoPart >> totalRecebimentos [
+	^ self grupoRecebimento ifNotNil: #total ifNil: [0]
 ]

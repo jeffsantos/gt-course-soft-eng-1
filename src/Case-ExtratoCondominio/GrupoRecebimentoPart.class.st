@@ -1,10 +1,6 @@
 Class {
 	#name : #GrupoRecebimentoPart,
-	#superclass : #ExtratoPart,
-	#instVars : [
-		'title',
-		'items'
-	],
+	#superclass : #GrupoItemPart,
 	#category : #'Case-ExtratoCondominio'
 }
 
@@ -15,10 +11,11 @@ GrupoRecebimentoPart class >> canParse: aTrTag [
 
 { #category : #'class initialization' }
 GrupoRecebimentoPart class >> initialize [
+	super initialize.
 	priority := 3
 ]
 
-{ #category : #'instance creation' }
+{ #category : #'class initialization' }
 GrupoRecebimentoPart class >> newFromTrTag: aTrTag withDocument: aDocument [
 
 	| grupoRecebimento |
@@ -29,29 +26,4 @@ GrupoRecebimentoPart class >> newFromTrTag: aTrTag withDocument: aDocument [
 		
 	(aDocument currentGrupoSaldo) grupoRecebimento: grupoRecebimento.
 	^ grupoRecebimento
-]
-
-{ #category : #'accessing - class hierarchy' }
-GrupoRecebimentoPart class >> priority [
-	^ 3
-]
-
-{ #category : #adding }
-GrupoRecebimentoPart >> addItem: anItem [
-	items add: anItem
-]
-
-{ #category : #initialization }
-GrupoRecebimentoPart >> initialize [
-	items := OrderedCollection new.
-]
-
-{ #category : #accessing }
-GrupoRecebimentoPart >> items [
-	^ items
-]
-
-{ #category : #accessing }
-GrupoRecebimentoPart >> title: aString [
-	title:= aString
 ]

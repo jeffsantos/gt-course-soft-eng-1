@@ -22,6 +22,7 @@ ItemExtratoPart class >> canParse: aTrTag [
 
 { #category : #'class initialization' }
 ItemExtratoPart class >> initialize [
+	super initialize.
 	priority := 5
 ]
 
@@ -46,11 +47,6 @@ ItemExtratoPart class >> newFromTrTag: aTrTag withDocument: aDocument [
 
 	^ itemPart
 
-]
-
-{ #category : #'accessing - class hierarchy' }
-ItemExtratoPart class >> priority [
-	^ 6
 ]
 
 { #category : #'private - converting' }

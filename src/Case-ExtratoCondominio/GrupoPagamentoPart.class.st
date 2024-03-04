@@ -1,10 +1,6 @@
 Class {
 	#name : #GrupoPagamentoPart,
-	#superclass : #ExtratoPart,
-	#instVars : [
-		'title',
-		'items'
-	],
+	#superclass : #GrupoItemPart,
 	#category : #'Case-ExtratoCondominio'
 }
 
@@ -15,10 +11,11 @@ GrupoPagamentoPart class >> canParse: aTrTag [
 
 { #category : #'class initialization' }
 GrupoPagamentoPart class >> initialize [
+	super initialize.
 	priority := 4
 ]
 
-{ #category : #'instance creation' }
+{ #category : #'class initialization' }
 GrupoPagamentoPart class >> newFromTrTag: aTrTag withDocument: aDocument [
 
 	| grupoPagamento |
@@ -29,29 +26,4 @@ GrupoPagamentoPart class >> newFromTrTag: aTrTag withDocument: aDocument [
 		
 	(aDocument currentGrupoSaldo) grupoPagamento: grupoPagamento.
 	^ grupoPagamento
-]
-
-{ #category : #'accessing - class hierarchy' }
-GrupoPagamentoPart class >> priority [
-	^ 5
-]
-
-{ #category : #adding }
-GrupoPagamentoPart >> addItem: anItem [
-	items add: anItem
-]
-
-{ #category : #initialization }
-GrupoPagamentoPart >> initialize [
-	items := OrderedCollection new.
-]
-
-{ #category : #accessing }
-GrupoPagamentoPart >> items [
-	^ items
-]
-
-{ #category : #accessing }
-GrupoPagamentoPart >> title: aString [
-	title:= aString
 ]
