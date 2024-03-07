@@ -8,7 +8,252 @@
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [ ]
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-02-29T13:30:48.902-03:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-03-04T23:02:19.177-03:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "cEHbhOnODQCOc8YJD+LSFQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "#### Baixa os extratos por mês"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-02-28T14:01:54.133-03:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-02-28T14:01:55.061-03:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "IAgx1tXODQCUyc7FBfnogA=="
+							},
+							"code" : "cond := CondominioExtrator createWithDriver.\r\rcond downloadExtratos."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-02-29T13:30:46.084-03:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-03-04T23:02:24.715-03:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "oEGwhOnODQCOb+d8D+LSFQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "#### Testes com o arquivo de extrato de um determinado mês"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-02-29T13:30:08.52-03:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-02-29T13:30:09.368-03:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "wNRygunODQCORu/uD+LSFQ=="
+							},
+							"code" : "file := 'C:\\Users\\jefferson\\Downloads\\extratos-cipa\\relatorio.html' asFileReference."
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-02-29T13:28:02.09-03:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-02-29T13:29:54.892-03:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "EOjpeunODQCN/v/zD+LSFQ=="
+							},
+							"code" : "soup := Soup fromString: file contents.\r\rsoup children"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-02-29T13:29:06.689-03:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-02-29T13:29:07.273-03:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "6JvDfunODQCODjq2D+LSFQ=="
+							},
+							"code" : "tableTag := (soup findAllTags: 'table') first"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-02-29T13:29:30.951-03:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-02-29T13:29:31.697-03:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "WNE1gOnODQCOGF7aD+LSFQ=="
+							},
+							"code" : "tableTag findAllTags: 'tr'"
+						}
+					]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -18,7 +263,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-29T13:30:48.902-03:00"
+						"dateAndTimeString" : "2024-03-04T23:01:22.008-03:00"
 					}
 				},
 				"editEmail" : {
@@ -29,57 +274,444 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-29T13:31:20.957-03:00"
+						"dateAndTimeString" : "2024-03-04T23:01:31.345-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "cEHbhOnODQCOc8YJD+LSFQ=="
+					"uidString" : "2Hus9EHPDQCot2egAzNhzA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "### Baixa os extratos por mês"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-28T14:01:54.133-03:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-28T14:01:55.061-03:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "IAgx1tXODQCUyc7FBfnogA=="
-				},
-				"code" : "cond := CondominioExtrator createWithDriver.\r\rcond downloadExtratos."
+				"string" : "### Soup"
 			},
 			{
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [ ]
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-03-03T00:35:33.28-03:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-03-03T00:37:58.206-03:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "GE3VCRvPDQCk8v0TA32JJw=="
+										},
+										"code" : "files := 'C:\\Users\\jefferson\\Downloads\\extratos-cipa\\' asFileReference allChildrenMatching: '*.html'"
+									},
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-03-03T00:40:20.31-03:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-03-04T22:52:32.943-03:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "IATxGhvPDQCyxCdKAwK2wg=="
+										},
+										"code" : "allDocs := files collect: [ :each | \r\t\t\t\t\tparser := ExtratoParser fromFile: each.\r\t\t\t\t\tparser parse ]"
+									},
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-03-04T22:51:43.19-03:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-03-04T22:55:52.888-03:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "CGws0kHPDQC5rY5OC53hrA=="
+										},
+										"code" : "orderedDocs := allDocs sort: [:i1 :i2 | i1 condominio startDate < i2 condominio startDate]"
+									},
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-03-04T23:29:43.57-03:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-03-04T23:30:15.886-03:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "UEYYWkLPDQCzIIwHAzNhzA=="
+										},
+										"code" : "orderedDocs collect: [:each | \r\t(each gruposSaldo \r\t\tdetect: [ :grupo | grupo title = 'Condomínio ' ]) totalPagamentos]"
+									},
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-03-04T23:29:46.399-03:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-03-04T23:30:17.448-03:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "MG1DWkLPDQCzJaKDAzNhzA=="
+										},
+										"code" : "orderedDocs collect: [:each | \r\t(each gruposSaldo \r\t\tdetect: [ :grupo | grupo title = 'Condomínio ' ]) totalRecebimentos]"
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-02-29T15:35:14.743-03:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-03-04T23:10:21.127-03:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "8O7aQevODQC+6owLDEL+bg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "#### Parsing de todos os arquivos"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-02-29T13:27:30.915-03:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-03-03T22:47:19.838-03:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "uDYOeenODQCNizIJD+LSFQ=="
+										},
+										"code" : "parser := ExtratoParser fromFile: (files at: 11)."
+									},
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-03-03T00:02:03.682-03:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-03-03T00:02:05.368-03:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "0EgNkhrPDQCgZJGyA32JJw=="
+										},
+										"code" : "parser parse."
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-03-04T23:09:14.421-03:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-03-04T23:10:28.167-03:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "OOvUEELPDQCrLICeAzNhzA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "#### Parsing de um arquivo individualmente"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-02-29T13:34:02.968-03:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-03-02T11:40:40.366-03:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "wHdskOnODQCQ5ZeQD+LSFQ=="
+										},
+										"code" : "subClasses := parser partClasses"
+									},
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-03-02T10:15:31.626-03:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-03-02T10:16:27.036-03:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "KIwiBg/PDQCtbjsnB9a+hw=="
+										},
+										"code" : "tags := parser allTRTags"
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-03-04T23:10:32.994-03:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-03-04T23:10:52.968-03:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "6NyDFULPDQCsU7f6AzNhzA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "#### Testes"
+						}
+					]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -89,7 +721,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-29T13:30:46.084-03:00"
+						"dateAndTimeString" : "2024-03-04T23:03:33.45-03:00"
 					}
 				},
 				"editEmail" : {
@@ -100,159 +732,232 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-29T13:31:43.849-03:00"
+						"dateAndTimeString" : "2024-03-04T23:04:18.729-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "oEGwhOnODQCOb+d8D+LSFQ=="
+					"uidString" : "ECWC/EHPDQCpbR12AzNhzA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "### Testes com o arquivo de extrato de um determinado mês"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-29T13:30:08.52-03:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-29T13:30:09.368-03:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "wNRygunODQCORu/uD+LSFQ=="
-				},
-				"code" : "file := 'C:\\Users\\jefferson\\Downloads\\extratos-cipa\\relatorio.html' asFileReference."
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-29T13:28:02.09-03:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-29T13:29:54.892-03:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "EOjpeunODQCN/v/zD+LSFQ=="
-				},
-				"code" : "soup := Soup fromString: file contents.\r\rsoup children"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-29T13:29:06.689-03:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-29T13:29:07.273-03:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "6JvDfunODQCODjq2D+LSFQ=="
-				},
-				"code" : "tableTag := (soup findAllTags: 'table') first"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-29T13:29:30.951-03:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-29T13:29:31.697-03:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "WNE1gOnODQCOGF7aD+LSFQ=="
-				},
-				"code" : "tableTag findAllTags: 'tr'"
+				"string" : "### Parsing arquivos de extrato"
 			},
 			{
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [ ]
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-03-02T10:17:12.68-03:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-03-02T10:17:13.364-03:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "WIIoDA/PDQCuN1eDB9a+hw=="
+										},
+										"code" : "aDoc := ExtratoDocument new."
+									},
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-03-02T10:03:53.271-03:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-03-03T22:33:28.125-03:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "CHuC3A7PDQCSnJuVAjIqdA=="
+										},
+										"code" : "parser parseTrTag: (tags at:2) withDocument: aDoc"
+									},
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-03-02T12:46:22.102-03:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-03-03T22:40:22.251-03:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "INaVIRHPDQCG7QwHDUnEjA=="
+										},
+										"code" : "parser partClasses\r\tdetect: [ :subClass | \r\t\t\t(subClass canParse: (tags at:6)) ]\t\t\t\t"
+									},
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-03-02T12:26:03.234-03:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-03-02T13:01:06.677-03:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "YFPv2BDPDQCBmyXRDUnEjA=="
+										},
+										"code" : "parser partClasses\r\tdetect: [ :subClass | \r\t\t\t(subClass canParse: (tags at:4)) \r\t\t\t\tifTrue: [^subClass] ]\t\t\t\t"
+									},
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-03-02T13:07:50.095-03:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-03-02T13:08:14.907-03:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "sBBbbhHPDQCIIWtqDUnEjA=="
+										},
+										"code" : "parser partClasses\r\tcollect: [ :subClass | \r\t\t\t(subClass canParse: (tags at:1)) \r\t\t\t\tifTrue: [^subClass] ]\t\t\t\t"
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-03-04T22:59:35.462-03:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-03-04T23:00:39.166-03:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "oLRS7kHPDQCmG8pIAzNhzA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "**Para entender o funcionamento do detect com retorno dentro de bloco**"
+						}
+					]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -262,7 +967,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-29T15:35:14.743-03:00"
+						"dateAndTimeString" : "2024-03-04T23:03:13.834-03:00"
 					}
 				},
 				"editEmail" : {
@@ -273,391 +978,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-29T15:35:24.172-03:00"
+						"dateAndTimeString" : "2024-03-04T23:03:17.783-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "8O7aQevODQC+6owLDEL+bg=="
+					"uidString" : "KNBW+0HPDQCpHeDNAzNhzA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "### Testes com as classes de domínio"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-03-03T00:35:33.28-03:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-03-03T00:37:58.206-03:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "GE3VCRvPDQCk8v0TA32JJw=="
-				},
-				"code" : "files := 'C:\\Users\\jefferson\\Downloads\\extratos-cipa\\' asFileReference allChildrenMatching: '*.html'"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-29T13:27:30.915-03:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-03-03T22:47:19.838-03:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "uDYOeenODQCNizIJD+LSFQ=="
-				},
-				"code" : "parser := ExtratoParser fromFile: (files at: 11)."
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-03-03T00:02:03.682-03:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-03-03T00:02:05.368-03:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "0EgNkhrPDQCgZJGyA32JJw=="
-				},
-				"code" : "parser parse."
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-03-03T00:40:20.31-03:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-03-03T00:41:02.811-03:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "IATxGhvPDQCyxCdKAwK2wg=="
-				},
-				"code" : "files collect: [ :each | \r\t\t\t\t\tparser := ExtratoParser fromFile: each.\r\t\t\t\t\tparser parse ]"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-29T13:34:02.968-03:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-03-02T11:40:40.366-03:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "wHdskOnODQCQ5ZeQD+LSFQ=="
-				},
-				"code" : "subClasses := parser partClasses"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-03-02T10:15:31.626-03:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-03-02T10:16:27.036-03:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "KIwiBg/PDQCtbjsnB9a+hw=="
-				},
-				"code" : "tags := parser allTRTags"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-03-02T10:17:12.68-03:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-03-02T10:17:13.364-03:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "WIIoDA/PDQCuN1eDB9a+hw=="
-				},
-				"code" : "aDoc := ExtratoDocument new."
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-03-02T10:03:53.271-03:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-03-03T22:33:28.125-03:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "CHuC3A7PDQCSnJuVAjIqdA=="
-				},
-				"code" : "parser parseTrTag: (tags at:2) withDocument: aDoc"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-03-02T12:46:22.102-03:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-03-03T22:40:22.251-03:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "INaVIRHPDQCG7QwHDUnEjA=="
-				},
-				"code" : "parser partClasses\r\tdetect: [ :subClass | \r\t\t\t(subClass canParse: (tags at:6)) ]\t\t\t\t"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-03-02T12:26:03.234-03:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-03-02T13:01:06.677-03:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "YFPv2BDPDQCBmyXRDUnEjA=="
-				},
-				"code" : "parser partClasses\r\tdetect: [ :subClass | \r\t\t\t(subClass canParse: (tags at:4)) \r\t\t\t\tifTrue: [^subClass] ]\t\t\t\t"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-03-02T13:07:50.095-03:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-03-02T13:08:14.907-03:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "sBBbbhHPDQCIIWtqDUnEjA=="
-				},
-				"code" : "parser partClasses\r\tcollect: [ :subClass | \r\t\t\t(subClass canParse: (tags at:1)) \r\t\t\t\tifTrue: [^subClass] ]\t\t\t\t"
+				"string" : "### Dúvidas"
 			}
 		]
 	},

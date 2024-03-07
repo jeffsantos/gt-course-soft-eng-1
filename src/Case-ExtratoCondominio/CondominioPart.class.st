@@ -2,7 +2,8 @@ Class {
 	#name : #CondominioPart,
 	#superclass : #ExtratoPart,
 	#instVars : [
-		'periodoStr'
+		'periodoStr',
+		'startDate'
 	],
 	#category : #'Case-ExtratoCondominio'
 }
@@ -30,6 +31,8 @@ CondominioPart class >> newFromTrTag: aTrTag withDocument: aDocument [
 											   Character cr asString));
 		parentDocument: aDocument.
 		
+	condominioPart startDate: (self toDate:(condominioPart periodoStr allRegexMatches: '^[0-9]+\/[0-9]+\/[0-9]+') first).
+		
 	aDocument condominio: condominioPart.
 	^ condominioPart
 ]
@@ -42,4 +45,14 @@ CondominioPart >> periodoStr [
 { #category : #accessing }
 CondominioPart >> periodoStr: aString [
 	periodoStr := aString 
+]
+
+{ #category : #accessing }
+CondominioPart >> startDate [
+	^ startDate
+]
+
+{ #category : #accessing }
+CondominioPart >> startDate: aDate [
+	startDate := aDate
 ]
