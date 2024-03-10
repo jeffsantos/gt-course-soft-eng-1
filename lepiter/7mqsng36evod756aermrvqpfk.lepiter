@@ -142,14 +142,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2024-02-29T13:30:09.368-03:00"
+									"dateAndTimeString" : "2024-03-10T20:16:17.163-03:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "wNRygunODQCORu/uD+LSFQ=="
 							},
-							"code" : "file := 'C:\\Users\\jefferson\\Downloads\\extratos-cipa\\relatorio.html' asFileReference."
+							"code" : "file := 'D:\\Users\\jefferson\\Google Drive\\_jupyter\\analysis-contas-condominio\\2023\\relatorio.html' asFileReference."
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -321,14 +321,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2024-03-03T00:37:58.206-03:00"
+												"dateAndTimeString" : "2024-03-10T20:17:03.21-03:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "GE3VCRvPDQCk8v0TA32JJw=="
 										},
-										"code" : "files := 'C:\\Users\\jefferson\\Downloads\\extratos-cipa\\' asFileReference allChildrenMatching: '*.html'"
+										"code" : "files := 'D:\\Users\\jefferson\\Google Drive\\_jupyter\\analysis-contas-condominio\\2023\\' asFileReference allChildrenMatching: '*.html'"
 									},
 									{
 										"__type" : "pharoSnippet",
