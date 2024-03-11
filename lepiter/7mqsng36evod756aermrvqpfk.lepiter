@@ -423,14 +423,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2024-03-04T23:30:15.886-03:00"
+												"dateAndTimeString" : "2024-03-10T22:01:26.448-03:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "UEYYWkLPDQCzIIwHAzNhzA=="
 										},
-										"code" : "orderedDocs collect: [:each | \r\t(each gruposSaldo \r\t\tdetect: [ :grupo | grupo title = 'Condomínio ' ]) totalPagamentos]"
+										"code" : "pagamentos := orderedDocs collect: [:each | \r\t(each gruposSaldo \r\t\tdetect: [ :grupo | grupo title = 'Condomínio ' ]) totalPagamentos * -1]"
 									},
 									{
 										"__type" : "pharoSnippet",
@@ -457,14 +457,86 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2024-03-04T23:30:17.448-03:00"
+												"dateAndTimeString" : "2024-03-10T22:01:33.399-03:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "MG1DWkLPDQCzJaKDAzNhzA=="
 										},
-										"code" : "orderedDocs collect: [:each | \r\t(each gruposSaldo \r\t\tdetect: [ :grupo | grupo title = 'Condomínio ' ]) totalRecebimentos]"
+										"code" : "recebimentos := orderedDocs collect: [:each | \r\t(each gruposSaldo \r\t\tdetect: [ :grupo | grupo title = 'Condomínio ' ]) totalRecebimentos]"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [
+												{
+													"__type" : "pharoSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2024-03-10T21:57:55.73-03:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2024-03-10T21:58:08.762-03:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "aIrZxLnPDQCWv/nIDa+jCQ=="
+													},
+													"code" : "\"Charting data\"\rseriesType := RSLinePlot.\rc := RSChart new. \r\rx1 := 1 to: 12.\r\rp := seriesType  new. \rp x: x1 y: pagamentos. \rp color: Color red.\r\rr := seriesType new. \rr x: x1 y: recebimentos. \r\rc addPlot: p. \rc addPlot: r. \rc addDecoration: (RSHorizontalTick new integer; fontSize: 10).\rc addDecoration: (RSVerticalTick new integerWithCommas; fontSize: 10).\rc title: 'Receitas e Despesas ao longo de ', orderedDocs first condominio startDate year printString.\rc build. \rc canvas"
+												}
+											]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-03-10T21:58:17.321-03:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-03-10T21:58:32.54-03:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "cPYixrnPDQCWyCvWDa+jCQ=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "**Plot data with Roassal**"
 									}
 								]
 							},
