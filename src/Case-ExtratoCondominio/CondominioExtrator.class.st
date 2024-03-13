@@ -2,7 +2,8 @@ Class {
 	#name : #CondominioExtrator,
 	#superclass : #Object,
 	#instVars : [
-		'driver'
+		'driver',
+		'yearDownload'
 	],
 	#category : #'Case-ExtratoCondominio'
 }
@@ -74,16 +75,23 @@ CondominioExtrator >> clickCalendar [
 CondominioExtrator >> clickMonth: i [
 
 	| previousButton month |
-	previousButton := (driver findElementsByCSSSelector:
-		                   '.mat-calendar-previous-button') first.
-	previousButton click.
+	
+	1 to: Date today year - yearDownload
+		do: [ :x |
+			previousButton := (driver findElementsByCSSSelector:
+				                   '.mat-calendar-previous-button') first.
+			previousButton click.
+		].
+	
 	month := (driver findElementsByCSSSelector:
 		          '.mat-calendar-body-cell-content') at: i.
 	month click
 ]
 
 { #category : #extracting }
-CondominioExtrator >> downloadExtratos [
+CondominioExtrator >> downloadExtratos: aNumber [
+	yearDownload := aNumber.
+	
 	self accessLoginPage.
 	self accessDashboardPage.
 	self accessDowloadExtratoPorMesPage 
@@ -128,4 +136,9 @@ CondominioExtrator >> getPassword [
 CondominioExtrator >> getUsername [
 
 	^ self getCredentials: 'username'
+]
+
+{ #category : #accessing }
+CondominioExtrator >> yearDownload [
+	^ yearDownload
 ]

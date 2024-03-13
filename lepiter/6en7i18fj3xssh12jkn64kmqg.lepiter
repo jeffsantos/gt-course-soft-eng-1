@@ -52,6 +52,40 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-03-12T20:52:09.336-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-03-12T20:52:14.438-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "2BhPFeHPDQCEbEZiDGKOYQ=="
+				},
+				"code" : "Metacello new\r\tbaseline: 'Soup';\r\trepository: 'github://pharo-contributions/Soup';\r\tload"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2024-02-28T10:16:38.192-03:00"
 					}
 				},
@@ -97,14 +131,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-02-28T10:55:07.255-03:00"
+						"dateAndTimeString" : "2024-03-12T21:08:18.67-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "mBu5sdLODQCSEzL1BO83bA=="
 				},
-				"code" : "driver:= BPRemoteWebDriver withCapabilities: BPChromeOptions new.\r\r\"Login page\" \rdriver get: 'https://cipafacil.digital/sign-in'.\r\remail := driver findElementByID: 'email'.\rpassword := driver findElementByID: 'password'.\r\remail clear.\remail sendKeys: ''.\rpassword clear.\rpassword sendKeys: ''.\r\rpassword sendKeys: (String with: BPKeys return).\r\r5 seconds asDelay wait.\r\r\"Dashboard page\" \rcover := (driver findElementsByCSSSelector: '.object-cover') first.\rcover click.\r\r\r\"Extrato page\"\r1 to: 12 do: \r\t[ :i | \r\t\tdriver get: 'https://cipafacil.digital/extrato'.\r\r\t\t3 seconds asDelay wait.\r\r\t\t\"Extrato page - Set Date\"\r\t\tcalendar := (driver findElementsByCSSSelector: '.mat-input-element') first.\r\t\tcalendar click.\r\r\t\tpreviousButton := (driver \r\t\t\t\t\tfindElementsByCSSSelector: '.mat-calendar-previous-button') first.\r\t\tpreviousButton click.\t\r\r\t\tmonth := (driver \r\t\t\t\t\tfindElementsByCSSSelector: '.mat-calendar-body-cell-content') at: i.\r\r\t\tmonth click.\r\t\t3 seconds asDelay wait.\r\t\texportButton := (driver \r\t\t\t\t\t\tfindElementsByCSSSelector: 'span.mat-button-wrapper') third.\r\t\texportButton click.\r\t\t10 seconds asDelay wait.\r].\r\r"
+				"code" : "driver:= BPRemoteWebDriver withCapabilities: BPChromeOptions new.\r\r\"Login page\" \rdriver get: 'https://cipafacil.digital/sign-in'.\r\remail := driver findElementByID: 'email'.\rpassword := driver findElementByID: 'password'.\r\remail clear.\remail sendKeys: 'jefferson.b.santos@gmail.com'.\rpassword clear.\rpassword sendKeys: 'Caio&Lara0407'.\r\rpassword sendKeys: (String with: BPKeys return).\r\r5 seconds asDelay wait.\r\r\"Dashboard page\" \rcover := (driver findElementsByCSSSelector: '.object-cover') first.\rcover click.\r\r\ryearDownload := 2024.\r\r\"Extrato page\"\r1 to: 12 do: \r\t[ :i | \r\t\tdriver get: 'https://cipafacil.digital/extrato'.\r\r\t\t3 seconds asDelay wait.\r\r\t\t\"Extrato page - Set Date\"\r\t\tcalendar := (driver findElementsByCSSSelector: '.mat-input-element') first.\r\t\tcalendar click.\r\r\r\t\t1 to: (Date today year) - yearDownload do: [ \r\t\t\tpreviousButton := (driver \r\t\t\t\t\t\tfindElementsByCSSSelector: '.mat-calendar-previous-button') first.\r\t\t\tpreviousButton click.\t\r\t\t].\r\r\t\tmonth := (driver \r\t\t\t\t\tfindElementsByCSSSelector: '.mat-calendar-body-cell-content') at: i.\r\r\t\tmonth click.\r\t\t3 seconds asDelay wait.\r\t\texportButton := (driver \r\t\t\t\t\t\tfindElementsByCSSSelector: 'span.mat-button-wrapper') third.\r\t\texportButton click.\r\t\t10 seconds asDelay wait.\r].\r\r"
 			},
 			{
 				"__type" : "textSnippet",
